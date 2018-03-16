@@ -8,10 +8,10 @@
   
   
   <groupId>groupId</groupId>
-  <artifactId>artifactId1</artifactId>
+  <artifactId>TestPr1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-      <name>artifactId1</name>
+      <name>TestPr1</name>
   <url>http://maven.apache.org</url>
 
 	  <scm>

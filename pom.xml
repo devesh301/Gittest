@@ -15,7 +15,7 @@
 	  </scm>
 
   <modules>
-    <module>artifactId1</module>
+    <module>TestPr1</module>
   </modules>
 
 </project>
