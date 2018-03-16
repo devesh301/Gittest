@@ -8,10 +8,10 @@
   
   
   <groupId>groupId</groupId>
-  <artifactId>TestPr2</artifactId>
+  <artifactId>TestPr1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-      <name>TestPr2</name>
+      <name>TestPr1</name>
   <url>http://maven.apache.org</url>
 
 	  <!--<scm>
@@ -43,7 +43,6 @@
 	</dependencies>
 	
   <build>
-  <sourceDirectory>src/main/java</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -74,6 +73,15 @@
 						<item>buildNumber/d</item>
 						<item>timestamp</item>
 					</items>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			

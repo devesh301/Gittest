@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Revision: a2f0416e86cf69705434d734bb678dd308393067
+Implementation-Title: TestPr1
+Build-Timestamp: 20180316165055
+Implementation-Version: 0.0.1-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: devesh.vanvari
+Created-By: Apache Maven 3.5.0
+Build-Jdk: 1.8.0_45
+
