@@ -14,11 +14,17 @@
       <name>TestPr1</name>
   <url>http://maven.apache.org</url>
 
-	  <scm>
+	  <!--<scm>
     <connection>scm:git:ssh://git@github.com:devesh301/Gittest.git</connection>
     <developerConnection>scm:git:ssh://git@github.com:devesh301/Gittest.git</developerConnection>
     <tag>HEAD</tag>
-	  </scm>
+	  </scm> -->
+	  
+	  <scm>
+		<url>https://github.com/devesh301/Gittest.git</url>
+		<connection>scm:git:git://github.com/devesh301/Gittest.git</connection>
+		<developerConnection>scm:git:git@github.com:devesh301/Gittest.git</developerConnection>
+	</scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

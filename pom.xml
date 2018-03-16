@@ -8,11 +8,17 @@
   <packaging>pom</packaging>
   <name>projects</name>
 
-	  <scm>
+	  <!--<scm>
     <connection>scm:git:ssh://git@github.com:devesh301/Gittest.git</connection>
     <developerConnection>scm:git:ssh://git@github.com:devesh301/Gittest.git</developerConnection>
     <tag>HEAD</tag>
-	  </scm>
+	  </scm> -->
+	  
+	  <scm>
+		<url>https://github.com/devesh301/Gittest.git</url>
+		<connection>scm:git:git://github.com/devesh301/Gittest.git</connection>
+		<developerConnection>scm:git:git@github.com:devesh301/Gittest.git</developerConnection>
+	</scm>
 
   <modules>
     <module>TestPr1</module>
