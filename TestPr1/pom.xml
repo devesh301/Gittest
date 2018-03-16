@@ -76,6 +76,15 @@
 				</configuration>
 			</plugin>
 			
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			
 			
       <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -91,13 +100,6 @@
                         </manifestEntries>
 					</archive>
 					<finalName>${project.artifactId}-${project.version}-r${buildNumber}</finalName>
-					<excludes>
-								<exclude>camerontec_license*</exclude>
-								<exclude>HighPerformanceLogger.conf</exclude>
-								<exclude>logback.xml</exclude>
-								<exclude>dictionary/**</exclude>
-								<exclude>validation/**</exclude>
-							</excludes>
 				</configuration>
 			</plugin>
     </plugins>
