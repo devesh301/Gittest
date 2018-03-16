@@ -43,6 +43,7 @@
 	</dependencies>
 	
   <build>
+  <sourceDirectory>src/main/java</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -73,15 +74,6 @@
 						<item>buildNumber/d</item>
 						<item>timestamp</item>
 					</items>
-				</configuration>
-			</plugin>
-			
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.0</version>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
 				</configuration>
 			</plugin>
 			
