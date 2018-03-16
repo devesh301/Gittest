@@ -20,7 +20,11 @@
     <tag>HEAD</tag>
 	  </scm> -->
 	  
-
+	  <scm>
+		<url>https://github.com/devesh301/Gittest.git</url>
+		<connection>scm:git:git://github.com/devesh301/Gittest.git</connection>
+		<developerConnection>scm:git:git@github.com:devesh301/Gittest.git</developerConnection>
+	</scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
